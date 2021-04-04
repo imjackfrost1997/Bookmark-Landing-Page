@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Bookmark landing page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main>
+    <header id="headings">
+      <div class="logo">
+        <svg width="148" height="25" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M37 6.299h5.227c.746 0 1.434.155 2.062.466.629.311 1.123.735 1.484 1.27s.542 1.12.542 1.754c0 .672-.165 1.254-.495 1.746-.33.491-.762.868-1.297 1.129v.15c.697.248 1.25.643 1.661 1.185.41.541.616 1.191.616 1.95 0 .735-.196 1.385-.588 1.951a3.817 3.817 0 0 1-1.587 1.307c-.665.305-1.403.457-2.212.457H37V6.299zm5.04 5.45c.548 0 .986-.152 1.316-.457.33-.305.495-.688.495-1.148 0-.448-.159-.824-.476-1.13-.318-.304-.738-.457-1.26-.457H39.52v3.192h2.52zm.28 5.619c.61 0 1.086-.159 1.428-.476.342-.317.513-.731.513-1.241 0-.51-.174-.927-.522-1.251-.349-.324-.847-.485-1.494-.485H39.52v3.453h2.8zm12.927 2.595c-1.307 0-2.492-.308-3.556-.924a6.711 6.711 0 0 1-2.511-2.53c-.61-1.07-.915-2.246-.915-3.528 0-1.281.305-2.457.915-3.528a6.711 6.711 0 0 1 2.51-2.529C52.756 6.308 53.94 6 55.248 6c1.306 0 2.492.308 3.556.924a6.711 6.711 0 0 1 2.51 2.53c.61 1.07.915 2.246.915 3.527 0 1.282-.305 2.458-.915 3.528a6.711 6.711 0 0 1-2.51 2.53c-1.064.616-2.25.924-3.556.924zm0-2.39a4.52 4.52 0 0 0 2.258-.578 4.177 4.177 0 0 0 1.615-1.624c.392-.697.588-1.494.588-2.39 0-.896-.196-1.692-.588-2.389a4.177 4.177 0 0 0-1.615-1.624 4.52 4.52 0 0 0-2.258-.579 4.47 4.47 0 0 0-2.25.579 4.195 4.195 0 0 0-1.605 1.624c-.392.697-.588 1.493-.588 2.39 0 .895.196 1.692.588 2.389a4.195 4.195 0 0 0 1.605 1.624 4.47 4.47 0 0 0 2.25.578zm15.353 2.39c-1.307 0-2.492-.308-3.556-.924a6.711 6.711 0 0 1-2.51-2.53c-.61-1.07-.915-2.246-.915-3.528 0-1.281.305-2.457.914-3.528a6.711 6.711 0 0 1 2.511-2.529C68.108 6.308 69.294 6 70.6 6c1.307 0 2.492.308 3.556.924a6.711 6.711 0 0 1 2.51 2.53c.61 1.07.915 2.246.915 3.527 0 1.282-.305 2.458-.914 3.528a6.711 6.711 0 0 1-2.511 2.53c-1.064.616-2.25.924-3.556.924zm0-2.39a4.52 4.52 0 0 0 2.259-.578 4.177 4.177 0 0 0 1.614-1.624c.392-.697.588-1.494.588-2.39 0-.896-.196-1.692-.588-2.389a4.177 4.177 0 0 0-1.614-1.624 4.52 4.52 0 0 0-2.259-.579 4.47 4.47 0 0 0-2.25.579 4.195 4.195 0 0 0-1.605 1.624c-.392.697-.588 1.493-.588 2.39 0 .895.196 1.692.588 2.389a4.195 4.195 0 0 0 1.606 1.624 4.47 4.47 0 0 0 2.249.578zM79.83 6.3h2.52v5.73h.15l4.89-5.73h3.043v.149L85.6 11.973l5.338 7.542v.149h-3.08l-3.994-5.693-1.512 1.773v3.92h-2.52V6.299zM93.779 6h3.248l3.546 9.39h.15L104.268 6h3.267v13.365h-2.501v-6.589l.15-2.221h-.15l-3.398 8.81h-1.96l-3.416-8.81h-.149l.15 2.221v6.59h-2.483V6zm20.8 0h2.894l5.021 13.365h-2.781l-1.12-3.192h-5.115l-1.12 3.192h-2.781L114.579 6zm3.193 7.859l-1.176-3.36-.486-1.606h-.149l-.485 1.606-1.195 3.36h3.49zM124.553 6h4.872c.871 0 1.646.18 2.324.541.678.361 1.204.862 1.577 1.503.374.64.56 1.366.56 2.175 0 .858-.27 1.62-.812 2.286a4.617 4.617 0 0 1-2.044 1.447l-.018.13 3.584 5.134v.15h-2.894l-3.453-5.022h-1.176v5.021h-2.52V6zm4.853 6.03c.573 0 1.04-.175 1.4-.523.361-.349.542-.79.542-1.326 0-.51-.172-.945-.514-1.306-.342-.361-.806-.542-1.39-.542h-2.371v3.696h2.333zm7.23-6.03h2.52v5.73h.15l4.89-5.73h3.043v.15l-4.835 5.525 5.34 7.541v.15h-3.08l-3.996-5.694-1.512 1.773v3.92h-2.52V6z" class="bookmark" fill-rule="nonzero"/><g><circle fill="#5267DF" cx="12.5" cy="12.5" r="12.5"/><path d="M9 9v10l3.54-3.44L16.078 19V9a2 2 0 0 0-2-2H11a2 2 0 0 0-2 2z" fill="#FFF"/></g></g></svg>
+      </div>
+      <nav class="nav">
+        <ul class="nav__links">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="btn">Login</a></li>
+        </ul>
+        <ul class="sm">
+          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill-rule="evenodd" d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"/></svg></a></li>
+          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="20"><path fill-rule="evenodd" d="M24 2.557a9.83 9.83 0 0 1-2.828.775A4.932 4.932 0 0 0 23.337.608a9.864 9.864 0 0 1-3.127 1.195A4.916 4.916 0 0 0 16.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 1.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 17.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 2.557z"/></svg></a></li>
+        </ul>
+      </nav>
+      <button class="menu" type="button"></button>
+    </header>
+    <section id="banner">
+      <div class="intro">
+        <h1>A Simple Bookmark<br>Manager</h1>
+        <p>A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+        <div class="intro__cta">
+          <a href="#" class="btn">Get it on Chrome</a>
+          <a href="#" class="btn">Get it on Firefox</a>
+        </div>
+      </div>
+      <div class="hero">
+        <svg width="659" height="466" viewBox="0 0 659 466" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="website">
+          <g id="Group">
+          <g id="Vector" filter="url(#filter0_d)">
+          <path d="M592.5 10.5H66.5C52.1406 10.5 40.5 22.1406 40.5 36.5V369.5C40.5 383.859 52.1406 395.5 66.5 395.5H592.5C606.859 395.5 618.5 383.859 618.5 369.5V36.5C618.5 22.1406 606.859 10.5 592.5 10.5Z" fill="black"/>
+          </g>
+          <path id="Vector_2" d="M592.5 10.5H66.5C52.1406 10.5 40.5 22.1406 40.5 36.5V369.5C40.5 383.859 52.1406 395.5 66.5 395.5H592.5C606.859 395.5 618.5 383.859 618.5 369.5V36.5C618.5 22.1406 606.859 10.5 592.5 10.5Z" fill="#777777"/>
+          </g>
+          <path id="Vector_3" d="M591.73 12.5H67.5C53.6929 12.5 42.5 23.6929 42.5 37.5V369.365C42.5 383.172 53.6929 394.365 67.5 394.365H591.73C605.537 394.365 616.73 383.172 616.73 369.365V37.5C616.73 23.6929 605.537 12.5 591.73 12.5Z" fill="url(#paint0_linear)"/>
+          <path id="Vector_4" opacity="0.1" d="M560.993 26.803H99.53C96.7686 26.803 94.53 29.0416 94.53 31.803V375.559C94.53 378.32 96.7686 380.559 99.53 380.559H560.993C563.754 380.559 565.993 378.32 565.993 375.559V31.803C565.993 29.0416 563.754 26.803 560.993 26.803Z" fill="#2A2A2A"/>
+          <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="61" y="29" width="537" height="347">
+          <g id="f">
+          <path id="Vector_5" d="M589.53 29.803H69.53C65.1117 29.803 61.53 33.3847 61.53 37.803V367.803C61.53 372.221 65.1117 375.803 69.53 375.803H589.53C593.948 375.803 597.53 372.221 597.53 367.803V37.803C597.53 33.3847 593.948 29.803 589.53 29.803Z" fill="white"/>
+          </g>
+          </mask>
+          <g mask="url(#mask0)">
+          <g id="body">
+          <path id="Vector_6" d="M589.53 29.803H69.53C65.1117 29.803 61.53 33.3847 61.53 37.803V367.803C61.53 372.221 65.1117 375.803 69.53 375.803H589.53C593.948 375.803 597.53 372.221 597.53 367.803V37.803C597.53 33.3847 593.948 29.803 589.53 29.803Z" fill="#E8EAF6"/>
+          </g>
+          <g id="heading">
+          <g id="head" style="--order:1;">
+          <path id="Vector_7" fill-rule="evenodd" clip-rule="evenodd" d="M58 30H605V89H58V30Z" fill="#5267DF"/>
+          </g>
+          <g id="menu" style="--order:3;">
+          <path id="Vector_8" opacity="0.104" d="M561 76C569.837 76 577 68.8366 577 60C577 51.1634 569.837 44 561 44C552.163 44 545 51.1634 545 60C545 68.8366 552.163 76 561 76Z" fill="white"/>
+          </g>
+          <g id="logo" style="--order:2;">
+          <path id="Vector_9" opacity="0.245" d="M100 76C108.837 76 116 68.8366 116 60C116 51.1634 108.837 44 100 44C91.1634 44 84 51.1634 84 60C84 68.8366 91.1634 76 100 76Z" fill="white"/>
+          <path id="Vector_10" opacity="0.75" d="M248 50H134C132.343 50 131 51.3431 131 53C131 54.6569 132.343 56 134 56H248C249.657 56 251 54.6569 251 53C251 51.3431 249.657 50 248 50Z" fill="white"/>
+          <path id="Vector_11" opacity="0.25" d="M192 64H134C132.343 64 131 65.3431 131 67C131 68.6569 132.343 70 134 70H192C193.657 70 195 68.6569 195 67C195 65.3431 193.657 64 192 64Z" fill="white"/>
+          </g>
+          </g>
+          <g id="structure">
+          <g id="main" style="--order:8;">
+          <path id="Vector_12" d="M371.53 122.803H126.53C122.112 122.803 118.53 126.385 118.53 130.803V430.803C118.53 435.221 122.112 438.803 126.53 438.803H371.53C375.948 438.803 379.53 435.221 379.53 430.803V130.803C379.53 126.385 375.948 122.803 371.53 122.803Z" fill="white"/>
+          </g>
+          <g id="sidebar" style="--order:16;">
+          <path id="Vector_13" d="M533.53 122.803H421.53C417.112 122.803 413.53 126.385 413.53 130.803V430.803C413.53 435.221 417.112 438.803 421.53 438.803H533.53C537.948 438.803 541.53 435.221 541.53 430.803V130.803C541.53 126.385 537.948 122.803 533.53 122.803Z" fill="white"/>
+          </g>
+          </g>
+          <g id="lines">
+          <g id="line1" style="--order:13;">
+          <path id="Vector_14" opacity="0.25" d="M519 145H437C435.343 145 434 146.343 434 148C434 149.657 435.343 151 437 151H519C520.657 151 522 149.657 522 148C522 146.343 520.657 145 519 145Z" fill="#242A45"/>
+          <path id="Vector_15" opacity="0.25" d="M519 165H437C435.343 165 434 166.343 434 168C434 169.657 435.343 171 437 171H519C520.657 171 522 169.657 522 168C522 166.343 520.657 165 519 165Z" fill="#242A45"/>
+          <path id="Vector_16" opacity="0.25" d="M519 185H437C435.343 185 434 186.343 434 188C434 189.657 435.343 191 437 191H519C520.657 191 522 189.657 522 188C522 186.343 520.657 185 519 185Z" fill="#242A45"/>
+          <path id="Vector_17" opacity="0.25" d="M519 205H437C435.343 205 434 206.343 434 208C434 209.657 435.343 211 437 211H519C520.657 211 522 209.657 522 208C522 206.343 520.657 205 519 205Z" fill="#242A45"/>
+          </g>
+          <g id="line2" style="--order:14;">
+          <path id="Vector_18" opacity="0.25" d="M519 239H437C435.343 239 434 240.343 434 242C434 243.657 435.343 245 437 245H519C520.657 245 522 243.657 522 242C522 240.343 520.657 239 519 239Z" fill="#242A45"/>
+          <path id="Vector_19" opacity="0.25" d="M519 259H437C435.343 259 434 260.343 434 262C434 263.657 435.343 265 437 265H519C520.657 265 522 263.657 522 262C522 260.343 520.657 259 519 259Z" fill="#242A45"/>
+          <path id="Vector_20" opacity="0.25" d="M519 279H437C435.343 279 434 280.343 434 282C434 283.657 435.343 285 437 285H519C520.657 285 522 283.657 522 282C522 280.343 520.657 279 519 279Z" fill="#242A45"/>
+          </g>
+          </g>
+          <g id="shapes">
+          <g id="circle1" style="--order:6;">
+          <path id="Vector_21" opacity="0.5" d="M314 161H200C198.343 161 197 162.343 197 164C197 165.657 198.343 167 200 167H314C315.657 167 317 165.657 317 164C317 162.343 315.657 161 314 161Z" fill="#242A45"/>
+          <path id="Vector_22" opacity="0.25" d="M258 175H200C198.343 175 197 176.343 197 178C197 179.657 198.343 181 200 181H258C259.657 181 261 179.657 261 178C261 176.343 259.657 175 258 175Z" fill="#242A45"/>
+          <path id="Vector_23" d="M166 187C174.837 187 182 179.837 182 171C182 162.163 174.837 155 166 155C157.163 155 150 162.163 150 171C150 179.837 157.163 187 166 187Z" fill="#F98E5D"/>
+          </g>
+          <g id="circle2" style="--order:7;">
+          <path id="Vector_24" d="M166 243C174.837 243 182 235.837 182 227C182 218.163 174.837 211 166 211C157.163 211 150 218.163 150 227C150 235.837 157.163 243 166 243Z" fill="#6AC6D6"/>
+          <path id="Vector_25" opacity="0.5" d="M314 217H200C198.343 217 197 218.343 197 220C197 221.657 198.343 223 200 223H314C315.657 223 317 221.657 317 220C317 218.343 315.657 217 314 217Z" fill="#242A45"/>
+          <path id="Vector_26" opacity="0.25" d="M258 231H200C198.343 231 197 232.343 197 234C197 235.657 198.343 237 200 237H258C259.657 237 261 235.657 261 234C261 232.343 259.657 231 258 231Z" fill="#242A45"/>
+          </g>
+          <g id="circle3" style="--order:8;">
+          <path id="Vector_27" d="M166 299C174.837 299 182 291.837 182 283C182 274.163 174.837 267 166 267C157.163 267 150 274.163 150 283C150 291.837 157.163 299 166 299Z" fill="#A47ED4"/>
+          <path id="Vector_28" opacity="0.5" d="M314 273H200C198.343 273 197 274.343 197 276C197 277.657 198.343 279 200 279H314C315.657 279 317 277.657 317 276C317 274.343 315.657 273 314 273Z" fill="#242A45"/>
+          <path id="Vector_29" opacity="0.25" d="M258 287H200C198.343 287 197 288.343 197 290C197 291.657 198.343 293 200 293H258C259.657 293 261 291.657 261 290C261 288.343 259.657 287 258 287Z" fill="#242A45"/>
+          </g>
+          <g id="circle4" style="--order:9;">
+          <path id="Vector_30" d="M166 355C174.837 355 182 347.837 182 339C182 330.163 174.837 323 166 323C157.163 323 150 330.163 150 339C150 347.837 157.163 355 166 355Z" fill="#EC7878"/>
+          <path id="Vector_31" opacity="0.5" d="M314 329H200C198.343 329 197 330.343 197 332C197 333.657 198.343 335 200 335H314C315.657 335 317 333.657 317 332C317 330.343 315.657 329 314 329Z" fill="#242A45"/>
+          <path id="Vector_32" opacity="0.25" d="M258 343H200C198.343 343 197 344.343 197 346C197 347.657 198.343 349 200 349H258C259.657 349 261 347.657 261 346C261 344.343 259.657 343 258 343Z" fill="#242A45"/>
+          </g>
+          </g>
+          </g>
+          </g>
+          <defs>
+          <filter id="filter0_d" x="0.5" y="0.5" width="658" height="465" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+          <feOffset dy="30"/>
+          <feGaussianBlur stdDeviation="20"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0.182433 0 0 0 0 0.230633 0 0 0 0 0.506058 0 0 0 0.20012 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+          </filter>
+          <linearGradient id="paint0_linear" x1="611.062" y1="286.202" x2="151.849" y2="-19.1735" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#151515"/>
+          <stop offset="1" stop-color="#3D3D3D"/>
+          </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </section>
+  </main>
+  <section class="features">
+    <header class="features__title">
+      <h2>Features</h2>
+      <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+    </header>
+    <div class="wrapper">
+      <ul class="tab__wrapper">
+        <button class="tab active" data-id="simple">Simple Bookmarking</button>
+        <button class="tab" data-id="speedy">Speedy Searching</button>
+        <button class="tab" data-id="easy">Easy Sharing</button>
+      </ul>
+      <div class="content__wrapper">
+        <article class="content active" id="simple">
+          <div class="imgBox">
+            <img src="/images/illustration-features-tab-1.svg" alt="tab1"/>
+          </div>
+          <div class="desc">
+            <h3>Bookmark in one click</h3>
+            <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+            <a href="#" class="btn">More Info</a>
+          </div>
+        </article>
+        <article class="content" id="speedy">
+          <div class="imgBox">
+            <img src="/images/illustration-features-tab-2.svg" alt="tab2"/>
+          </div>
+          <div class="desc">
+            <h3>Intelligent search</h3>
+            <p>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks</p>
+            <a href="#" class="btn">More Info</a>
+          </div>
+        </article>
+        <article class="content" id="easy">
+          <div class="imgBox">
+            <img src="/images/illustration-features-tab-3.svg" alt="tab3"/>
+          </div>
+          <div class="desc">
+            <h3>Share your bookmarks</h3>
+            <p>Easily share your bookmarks and collections with other. Create a shareable link that you can send at the click of a button.</p>
+            <a href="#" class="btn">More Info</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="extensions">
+    <header class="extensions__title">
+      <h2>Download the extension</h2>
+      <p>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+    </header>
+    <section class="cards">
+      <article class="card">
+        <img src="/images/logo-chrome.svg" alt="chrome"/>
+        <div class="card__content">
+          <h4>Add to Chrome</h4>
+          <small>Minimum version 62</small>
+        </div>
+        <a href="#" class="btn">Add & Install Extension</a>
+      </article>
+      <article class="card card-two">
+        <img src="/images/logo-firefox.svg" alt="firefox"/>
+        <div class="card__content">
+          <h4>Add to Firefox</h4>
+          <small>Minimum version 55</small>
+        </div>
+        <a href="#" class="btn">Add & Install Extension</a>
+      </article>
+      <article class="card card-three">
+        <img src="/images/logo-opera.svg" alt="opera"/>
+        <div class="card__content">
+          <h4>Add to Opera</h4>
+          <small>Minimum version 46</small>
+        </div>
+        <a href="#" class="btn">Add & Install Extension</a>
+      </article>
+    </section>
+  </section>
+  <section class="faq">
+    <header class="faq__title">
+      <h2>Frequently Asked Questions</h2>
+      <p>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+    </header>
+    <section class="details">
+      <details>
+        <summary>What is Bookmark?<svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg></summary>
+        <div class="details__content">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo quas soluta est in eveniet odio veritatis nesciunt illo esse alias cumque unde impedit rem sed maiores sint, vitae modi fuga blanditiis sapiente adipisci. Voluptate, saepe.</p>
+        </div>
+      </details>
+      <details>
+        <summary>How can I request a new browser?<svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg></summary>
+        <div class="details__content">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit sapiente sint velit dicta, mollitia facilis, laboriosam dignissimos numquam error voluptatem nemo alias reiciendis possimus illo voluptates rerum nobis impedit? Mollitia cumque ducimus quasi aliquam omnis nobis amet id quos.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Is there a mobile app?<svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg></summary>
+        <div class="details__content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error velit quisquam quo veritatis commodi magni repudiandae, nisi nesciunt exercitationem corporis corrupti ex iste magnam cumque excepturi similique eveniet at a ut nemo aliquam.</p>
+        </div>
+      </details>
+      <details>
+        <summary>What about other Chromium browsers?<svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg></summary>
+        <div class="details__content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quos inventore nulla nihil adipisci ea magni alias officiis! Ducimus sed perspiciatis quod consectetur, laborum eveniet incidunt aperiam repellendus natus nulla.</p>
+        </div>
+      </details>
+    </section>
+    <div class="faq__cta">
+      <a href="#" class="btn">More Info</a>
+    </div>
+  </section>
+  <article class="newsletter">
+    <h5>35,000+ Already Joined</h5>
+    <h2>Stay up-to-date with what<br>we're doing</h2>
+    <form class="form">
+      <div class="form__control">
+        <input type="email" id="email" name="email" placeholder=" " required/>
+        <label for="email">Enter your email address</label>
+      </div>
+      <input type="submit" class="btn" value="Contact Us"/>
+    </form>
+  </article>
+
+  <footer>
+    <nav class="footer__nav">
+      <div class="footer__logo">
+        <svg width="148" height="25" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M37 6.299h5.227c.746 0 1.434.155 2.062.466.629.311 1.123.735 1.484 1.27s.542 1.12.542 1.754c0 .672-.165 1.254-.495 1.746-.33.491-.762.868-1.297 1.129v.15c.697.248 1.25.643 1.661 1.185.41.541.616 1.191.616 1.95 0 .735-.196 1.385-.588 1.951a3.817 3.817 0 0 1-1.587 1.307c-.665.305-1.403.457-2.212.457H37V6.299zm5.04 5.45c.548 0 .986-.152 1.316-.457.33-.305.495-.688.495-1.148 0-.448-.159-.824-.476-1.13-.318-.304-.738-.457-1.26-.457H39.52v3.192h2.52zm.28 5.619c.61 0 1.086-.159 1.428-.476.342-.317.513-.731.513-1.241 0-.51-.174-.927-.522-1.251-.349-.324-.847-.485-1.494-.485H39.52v3.453h2.8zm12.927 2.595c-1.307 0-2.492-.308-3.556-.924a6.711 6.711 0 0 1-2.511-2.53c-.61-1.07-.915-2.246-.915-3.528 0-1.281.305-2.457.915-3.528a6.711 6.711 0 0 1 2.51-2.529C52.756 6.308 53.94 6 55.248 6c1.306 0 2.492.308 3.556.924a6.711 6.711 0 0 1 2.51 2.53c.61 1.07.915 2.246.915 3.527 0 1.282-.305 2.458-.915 3.528a6.711 6.711 0 0 1-2.51 2.53c-1.064.616-2.25.924-3.556.924zm0-2.39a4.52 4.52 0 0 0 2.258-.578 4.177 4.177 0 0 0 1.615-1.624c.392-.697.588-1.494.588-2.39 0-.896-.196-1.692-.588-2.389a4.177 4.177 0 0 0-1.615-1.624 4.52 4.52 0 0 0-2.258-.579 4.47 4.47 0 0 0-2.25.579 4.195 4.195 0 0 0-1.605 1.624c-.392.697-.588 1.493-.588 2.39 0 .895.196 1.692.588 2.389a4.195 4.195 0 0 0 1.605 1.624 4.47 4.47 0 0 0 2.25.578zm15.353 2.39c-1.307 0-2.492-.308-3.556-.924a6.711 6.711 0 0 1-2.51-2.53c-.61-1.07-.915-2.246-.915-3.528 0-1.281.305-2.457.914-3.528a6.711 6.711 0 0 1 2.511-2.529C68.108 6.308 69.294 6 70.6 6c1.307 0 2.492.308 3.556.924a6.711 6.711 0 0 1 2.51 2.53c.61 1.07.915 2.246.915 3.527 0 1.282-.305 2.458-.914 3.528a6.711 6.711 0 0 1-2.511 2.53c-1.064.616-2.25.924-3.556.924zm0-2.39a4.52 4.52 0 0 0 2.259-.578 4.177 4.177 0 0 0 1.614-1.624c.392-.697.588-1.494.588-2.39 0-.896-.196-1.692-.588-2.389a4.177 4.177 0 0 0-1.614-1.624 4.52 4.52 0 0 0-2.259-.579 4.47 4.47 0 0 0-2.25.579 4.195 4.195 0 0 0-1.605 1.624c-.392.697-.588 1.493-.588 2.39 0 .895.196 1.692.588 2.389a4.195 4.195 0 0 0 1.606 1.624 4.47 4.47 0 0 0 2.249.578zM79.83 6.3h2.52v5.73h.15l4.89-5.73h3.043v.149L85.6 11.973l5.338 7.542v.149h-3.08l-3.994-5.693-1.512 1.773v3.92h-2.52V6.299zM93.779 6h3.248l3.546 9.39h.15L104.268 6h3.267v13.365h-2.501v-6.589l.15-2.221h-.15l-3.398 8.81h-1.96l-3.416-8.81h-.149l.15 2.221v6.59h-2.483V6zm20.8 0h2.894l5.021 13.365h-2.781l-1.12-3.192h-5.115l-1.12 3.192h-2.781L114.579 6zm3.193 7.859l-1.176-3.36-.486-1.606h-.149l-.485 1.606-1.195 3.36h3.49zM124.553 6h4.872c.871 0 1.646.18 2.324.541.678.361 1.204.862 1.577 1.503.374.64.56 1.366.56 2.175 0 .858-.27 1.62-.812 2.286a4.617 4.617 0 0 1-2.044 1.447l-.018.13 3.584 5.134v.15h-2.894l-3.453-5.022h-1.176v5.021h-2.52V6zm4.853 6.03c.573 0 1.04-.175 1.4-.523.361-.349.542-.79.542-1.326 0-.51-.172-.945-.514-1.306-.342-.361-.806-.542-1.39-.542h-2.371v3.696h2.333zm7.23-6.03h2.52v5.73h.15l4.89-5.73h3.043v.15l-4.835 5.525 5.34 7.541v.15h-3.08l-3.996-5.694-1.512 1.773v3.92h-2.52V6z" class="bookmark" fill-rule="nonzero"/><g><circle fill="#5267DF" cx="12.5" cy="12.5" r="12.5"/><path d="M9 9v10l3.54-3.44L16.078 19V9a2 2 0 0 0-2-2H11a2 2 0 0 0-2 2z" fill="#FFF"/></g></g></svg>
+      </div>
+      <ul class="nav__links">
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="sm">
+        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill-rule="evenodd" d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"/></svg></a></li>
+          <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="20"><path fill-rule="evenodd" d="M24 2.557a9.83 9.83 0 0 1-2.828.775A4.932 4.932 0 0 0 23.337.608a9.864 9.864 0 0 1-3.127 1.195A4.916 4.916 0 0 0 16.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 0 1 1.671 1.149a4.93 4.93 0 0 0 1.523 6.574 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.928 4.928 0 0 0 4.6 3.419A9.9 9.9 0 0 1 0 17.54a13.94 13.94 0 0 0 7.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0 0 24 2.557z"/></svg></a></li>
+      </ul>
+    </nav>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
